@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Piazzolla:opsz,wght@8..30,200;8..30,300;8..30,400;8..30,900&family=Poppins:wght@500;800&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1F2833;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e4f1fe;
+}
+
+#navleft {
+    padding: 0px 25px;
+    font-family: 'Parisienne', cursive;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#navleft:hover {
+    background-color: #8dc6ff;
+    
+}
+
+#navright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navitems {
+    padding: 17px 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.navitems:hover {
+    background-color: #8dc6ff;
+    border-bottom: 2px solid black;
+    
+}
+.navitems a{
+    text-decoration: none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#intro {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+#introdivleft h1 {
+    padding: 20px 100px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #66FCF1;
+}
+
+#introdivleft p {
+    padding: 0px 50px 0px 50px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: #66FCF1;
+}
+
+#introdivleft .connectionlinks a{
+    color: #00aced;
+    margin: 0 27px 0 43px;
+    font-size: 2rem;
+    padding: 10px;
+    font-size: 1.6rem;
+    padding: 12px;
+}
+#introdivright{
+    margin-left: 200px;
+}
+.connectionlinks a:hover{
+    transform: translate(0,-2px);
+    box-shadow: 0 0 15px  #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease-in;
+}
+
+
+
+
+#skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+#image1 {
+    height: 300px;
+    width: 300px;
+    padding: 0px 100px 0px 60px;
+}
+
+#image2 {
+    height: 300px;
+    width: 300px;
+    padding: 0px 100px 0px 60px;
+}
+
+#skillsheading  h1{
+    text-align: center;
+    font-size: 40px;
+    color: #66FCF1;
+}
+
+#skillsheading  p{
+    text-align: center;
+    color: #66FCF1;
+}
+
+#skillsright{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -250px;
+}
+#skillsright i{
+    border-radius: 50%;
+    font-size: 35px;
+    padding: 12px;
+    color: #66FCF1;
+
+}
+
+#proficiency{
+    text-align: center;
+    color: #66FCF1;
+}
+
+.prof{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skilldiv{
+    width: 200%;
+    /* background-color: #00aced; */
+}
+
+.frontend{
+    width: 80%;
+    background-image: linear-gradient(to right, rgb(31, 40, 51),red);
+    padding: 5px;
+    color: white;
+    text-align: right;
+}
+
+.backend{
+    width: 20%;
+    background-color: #00aced;
+    background-image: linear-gradient(to right, rgb(31, 40, 51),red);
+    padding: 5px;
+    color: white;
+    text-align: right;
+}
+
+.programming{
+    width: 65%;
+    background-color: #00aced;
+    background-image: linear-gradient(to right, rgb(31, 40, 51),red);
+    padding: 5px;
+    color: white;
+    text-align: right;
+}
+
+#profleft p{
+    color: #66FCF1;
+}
+
+#education{
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#education h1{
+    color: #66FCF1;
+}
+
+#card{
+    color: #00ADC1;
+    background-color: aliceblue;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+}
+#card2{ 
+    color: #00ADC1;
+    background-color: aliceblue;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;    
+}
+#card2:hover{
+    transform: translate(0,-10px);
+}
+
+#card:hover{
+    transform: translate(0,-10px);
+}
+
+#card p{
+    border: 1px solid darkblue;
+    border-radius: 6%;
+    background-color: cyan;
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 164px;
+}
+#card2 p{
+    border: 1px solid darkblue;
+    border-radius: 6%;
+    background-color: cyan;
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 164px;
+}
+#projects{
+    margin-left: 60px;
+}
+
+#projects h1{
+    color: #00ADC1;
+}
+
+#projwork{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 5px 0 5px;
+}
+
+
+
+#projcard{
+    color: #00ADC1;
+    background-color: aliceblue;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+}
+
+#feedback {
+    margin-left: 60px;
+}
+#feedback h1{
+    color: #00ADC1;
+    text-decoration: none;
+}
+#feedback2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 5px 0 5px;
+}
+
+#textarea{
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+}
+#submit{
+    height: 30px;
+    width: 60px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+#projcard:hover{
+    transform: translate(0,-10px);
+}
+
+footer{
+    background-color: #e4f1fe;
+    color: #1F2833;
+    margin-top: 40px;
+    padding: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+#location{
+    border: 2px solid white;
+    width: 70px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+#profilepic{
+    height: 400px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar{
+        width: 50em;
+    }
+    #image1{
+        width: 250px;
+        height: 250px;
+    }
+    .connectionlinks{
+        display: flex;
+    }
+    #skillsheading{
+        margin-top: 10px;
+        width: 100%;
+    }
+    #projwork{
+        margin-left: -40px;
+    }
+    #navleft{
+        font-size: 1.2em;
+    }
+}
